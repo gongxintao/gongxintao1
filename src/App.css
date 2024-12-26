@@ -1,0 +1,117 @@
+/* 全局样式 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* 深色背景 */
+  color: #e0e0e0; /* 浅色字体 */
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffcc00; /* 金黄色标题 */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ff9800; /* 橙色按钮背景 */
+  color: #121212; /* 深色字体 */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #e57300; /* 按钮 hover 颜色 */
+}
+
+button:disabled {
+  background-color: #757575; /* 禁用状态的按钮颜色 */
+  cursor: not-allowed;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #333333; /* 深色输入框背景 */
+  color: #e0e0e0; /* 浅色字体 */
+}
+
+input::placeholder {
+  color: #757575; /* 占位符颜色 */
+}
+
+.nft-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.listBox {
+  background-color: #1e1e1e; /* NFT 卡片背景 */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: left;
+}
+
+.listImg img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.listTitle h3 {
+  color: #ffcc00; /* 金黄色标题 */
+  margin-top: 10px;
+}
+
+.listRemark p {
+  color: #b0bec5; /* 浅灰色字体 */
+}
+
+.listBtnBox .btn1 {
+  background-color: #ff5722; /* 红色移除按钮 */
+  color: #121212;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.listBtnBox .btn1:hover {
+  background-color: #e64a19;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #1e1e1e; /* 售卖列表背景 */
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul li button {
+  margin-left: 10px;
+}
+
+p {
+  color: #b0bec5; /* 浅灰色字体 */
+}
